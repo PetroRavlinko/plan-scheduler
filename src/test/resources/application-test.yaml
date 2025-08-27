@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: plan-scheduler
+  datasource:
+    url: jdbc:h2:mem:testdb
+    driverClassName: org.h2.Driver
+    username: sa
+    password:
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: validate
+  sql:
+    init:
+      mode: always
+      data-locations: classpath:data-test.sql
+      schema-locations: classpath:schema-test.sql
