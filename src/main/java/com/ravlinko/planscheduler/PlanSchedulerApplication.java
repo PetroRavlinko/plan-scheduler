@@ -7,15 +7,18 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.scheduling.annotation.EnableScheduling;
 import org.springframework.scheduling.annotation.Scheduled;
 
+import java.util.TimeZone;
+
 
 @RequiredArgsConstructor
 @Slf4j
 @EnableScheduling
 @SpringBootApplication
 public class PlanSchedulerApplication {
-    private final SchedulerService  schedulerService;
+    private final SchedulerService schedulerService;
 
     public static void main(String[] args) {
+        TimeZone.setDefault(TimeZone.getTimeZone("UTC"));
         SpringApplication.run(PlanSchedulerApplication.class, args);
     }
 
