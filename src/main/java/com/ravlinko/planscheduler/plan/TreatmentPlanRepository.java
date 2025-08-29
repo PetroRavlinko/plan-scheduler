@@ -1,4 +1,4 @@
-package com.ravlinko.planscheduler;
+package com.ravlinko.planscheduler.plan;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;

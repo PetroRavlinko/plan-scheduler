@@ -1,5 +1,6 @@
-package com.ravlinko.planscheduler;
+package com.ravlinko.planscheduler.task;
 
+import com.ravlinko.planscheduler.plan.TreatmentPlan;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;

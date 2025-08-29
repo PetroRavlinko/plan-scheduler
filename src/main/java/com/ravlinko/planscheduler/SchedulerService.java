@@ -1,5 +1,10 @@
 package com.ravlinko.planscheduler;
 
+import com.ravlinko.planscheduler.plan.TreatmentPlan;
+import com.ravlinko.planscheduler.plan.TreatmentPlanRepository;
+import com.ravlinko.planscheduler.task.TreatmentTask;
+import com.ravlinko.planscheduler.task.TreatmentTaskRepository;
+import com.ravlinko.planscheduler.task.TreatmentTaskStatus;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.scheduling.support.CronExpression;

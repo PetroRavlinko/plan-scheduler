@@ -1,4 +1,4 @@
-package com.ravlinko.planscheduler;
+package com.ravlinko.planscheduler.plan;
 
 public enum TreatmentAction {
     ACTION_A,

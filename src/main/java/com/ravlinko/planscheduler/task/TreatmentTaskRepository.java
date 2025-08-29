@@ -1,5 +1,6 @@
-package com.ravlinko.planscheduler;
+package com.ravlinko.planscheduler.task;
 
+import com.ravlinko.planscheduler.plan.TreatmentPlan;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.sql.Timestamp;

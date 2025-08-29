@@ -18,7 +18,9 @@
         <license/>
     </licenses>
     <developers>
-        <developer/>
+        <developer>
+            <name>Petro Ravlinko</name>
+        </developer>
     </developers>
     <scm>
         <connection/>

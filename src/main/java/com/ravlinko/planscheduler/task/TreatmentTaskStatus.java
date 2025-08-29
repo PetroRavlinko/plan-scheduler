@@ -1,4 +1,4 @@
-package com.ravlinko.planscheduler;
+package com.ravlinko.planscheduler.task;
 
 public enum TreatmentTaskStatus {
     ACTIVE,
